@@ -14,7 +14,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 @Service
-public class SecurityDatabaseService  implements UserDetailsService {
+public class SecurityDatabaseService implements UserDetailsService {
     @Autowired
     private UserRepository userRepository;
     @Override
